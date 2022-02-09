@@ -1,0 +1,18 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+.conversation {
+    border-left: 4px solid rgba(210, 210, 210, 0.6);
+    padding-left: 8px;
+}
+
+.link {
+    text-decoration: none;
+    padding: 4px;
+    background-color: rgb(223, 87, 87);
+    color: white;
+    box-shadow: 2px 2px 2px 2px rgba(190, 190, 190, 0.6);
+    &:hover {
+        background-color: red;
+    }
+}
